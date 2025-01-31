@@ -1,5 +1,4 @@
-body {
-    background: rgb(127, 132, 132);
+body {    background: rgb(113, 115, 115);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -94,7 +93,7 @@ h2, h3 {
   }
   
   #portfolio li:hover {
-    background: #eee;
+    background: #000000;
   }
   
   #portfolio a {

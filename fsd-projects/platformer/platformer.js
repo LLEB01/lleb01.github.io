@@ -21,7 +21,7 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
+    
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -43,18 +43,19 @@ $(function () {
     createPlatform(1000, 200, 300, 10);
     createPlatform(500, 200, 50, 10);
     createPlatform(100, 300, 100, 10);
-   createPlatform(0, 650, 300, 150)
+   createPlatform(0, 650, 300, 150);
+   createPlatform(1250, 680, 100, 100);
     // TODO 3 - Create Collectables
-    createCollectable("database" ,1250,700, 0, 0);
-    createCollectable("database", 1020, 150, 0, 0);
+    createCollectable("database" ,1300,650, 0, 0);
+    createCollectable("database", 1050, 150, 0, 0);
     createCollectable("database", 130, 250, 0, 0);
 
     
     // TODO 4 - Create Cannons
     createCannon("bottom", 800, 500);
-    createCannon("top", 1200, 700)
-    createCannon("bottom", 300, 600)
-
+    createCannon("top", 1200, 700);
+    createCannon("bottom", 300, 600);
+    createCannon("right", 770, 0);
     
     
     //////////////////////////////////

@@ -69,7 +69,7 @@
 			moveBoxTo(boardWidth);
 			var positionX = 0;
 			var points = 0
-			var speed = 10
+			var speed = 10;
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
@@ -77,12 +77,13 @@
 			*/
 			function update() {
 			moveBoxTo (positionX)
-			positionX = positionX + speed
+			positionX = positionX + speed;
 			if (positionX > boardWidth) {
 				speed *= -1
 			}
 			 if (positionX < 0) {
 				speed *= -1
+				speed = 3 * points + 10;
 			}
 			
 			
